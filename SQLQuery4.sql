@@ -16,7 +16,7 @@
 -- 6) Totale delle spese di trasporto effettuate raggruppate per id cliente
 -- SELECT EmployeeID, Count(*) AS TotaleSpeseTrasportoEffettuate FROM Orders GROUP BY EmployeeID ORDER BY TotaleSpeseTrasportoEffettuate
 
--- 7) Numero totale di clienti raggruppati per citt‡ di appartenenza
+-- 7) Numero totale di clienti raggruppati per citt√† di appartenenza
 -- SELECT City, COUNT(*) AS ClientiCittaAppartenenza FROM Employees GROUP BY City ORDER BY ClientiCittaAppartenenza 
 
 -- 8) Totale di UnitPrice * Quantity raggruppato per ogni ordine
